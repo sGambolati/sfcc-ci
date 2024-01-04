@@ -1,11 +1,12 @@
 repo_name: sGambolati/sfcc-ci
 report_id: 8a8cb8b315ca384d71a618ac749eb444
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:25:16+00:00'
+timestamp: '2024-01-04T15:05:49+00:00'
 requested_by: tobiaslohr
 provider: github
 branch: master
-detected_tools_count: 25
+detected_tools_count: 26
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/sGambolati/sfcc-ci
   detection_source: Repo Metadata
 - name: Chai
   description: A BDD / TDD assertion library
@@ -27,7 +29,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1725/chai.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Tobias Lohr
   last_updated_on: 2017-07-13 10:42:27.000000000 Z
@@ -40,6 +42,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package.json
   detection_source: package.json
   last_updated_by: snyk-bot
   last_updated_on: 2021-05-27 03:17:14.000000000 Z
@@ -52,6 +55,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package.json
   detection_source: package.json
   last_updated_by: Tobias Lohr
   last_updated_on: 2017-07-13 10:42:27.000000000 Z
@@ -63,6 +67,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sGambolati/sfcc-ci
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -72,6 +77,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/.github/workflows/build-and-test.yml
   detection_source: ".github/workflows/build-and-test.yml"
   last_updated_by: Tobias Lohr
   last_updated_on: 2023-01-11 15:58:28.000000000 Z
@@ -86,7 +92,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Tobias Lohr
   last_updated_on: 2022-01-24 13:51:52.000000000 Z
@@ -99,7 +105,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/3509/logo.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Tobias Lohr
   last_updated_on: 2018-12-19 09:27:30.000000000 Z
@@ -112,6 +118,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/5326/6p1SNAJu.jpg
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/.snyk
   detection_source: ".snyk"
   last_updated_by: snyk-bot
   last_updated_on: 2020-05-14 13:27:45.000000000 Z
@@ -123,6 +130,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package.json
   detection_source: package.json
   last_updated_by: Tobias Lohr
   last_updated_on: 2017-07-13 10:42:27.000000000 Z
@@ -135,6 +143,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/sGambolati/sfcc-ci
   detection_source: Repo Metadata
 - name: chalk
   description: terminal colors
@@ -142,6 +151,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package.json
   detection_source: package.json
   last_updated_by: Jordane Bachelet (Salesforce.com)
   last_updated_on: 2020-08-25 09:24:22.000000000 Z
@@ -155,10 +165,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16407/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: snyk-bot
   last_updated_on: 2022-05-07 02:27:48.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jordane Bachelet (Salesforce.com)
+  last_updated_on: 2020-08-25 09:24:22.000000000 Z
 - name: colors
   description: Get colors in your node.js console
   package_url: https://www.npmjs.com/colors
@@ -169,7 +193,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Robert Engel
   last_updated_on: 2022-01-09 10:13:51.000000000 Z
@@ -183,7 +207,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Holger Nestmann
   last_updated_on: 2021-08-12 06:16:12.000000000 Z
@@ -197,7 +221,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17998/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Tobias Lohr
   last_updated_on: 2020-02-26 12:21:23.000000000 Z
@@ -211,7 +235,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Tobias Lohr
   last_updated_on: 2017-07-13 10:42:27.000000000 Z
@@ -225,7 +249,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16159/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: snyk-bot
   last_updated_on: 2022-01-29 19:22:51.000000000 Z
@@ -239,7 +263,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: snyk-bot
   last_updated_on: 2021-11-09 06:34:08.000000000 Z
@@ -253,7 +277,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18307/default_adee5b58cc2acb885faff4066ee6d7281131005f.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: snyk-bot
   last_updated_on: 2022-12-22 21:26:45.000000000 Z
@@ -267,7 +291,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: snyk-bot
   last_updated_on: 2022-12-22 21:26:45.000000000 Z
@@ -281,7 +305,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: challmann
   last_updated_on: 2019-07-17 14:37:00.000000000 Z
@@ -296,7 +320,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16138/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: snyk-bot
   last_updated_on: 2021-11-09 06:34:08.000000000 Z
@@ -310,7 +334,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Rob Lacy
   last_updated_on: 2018-09-03 19:31:23.000000000 Z
@@ -331,7 +355,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17937/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/sGambolati/sfcc-ci/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: snyk-bot
   last_updated_on: 2022-11-23 22:20:03.000000000 Z
